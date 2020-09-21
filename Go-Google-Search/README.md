@@ -1,4 +1,4 @@
-This assignment is a implementation of "Google Search" problem presented by Rob Pike in Google developers Go conference.
+<h4>This assignment is a implementation of "Google Search" problem presented by Rob Pike in Google developers Go conference.<h4>
 
 Google search v1 :
 1. Here we simply query the server (or call fakeSearch) for web, image and video type of results one after another in sequntial manner.
@@ -18,7 +18,7 @@ Google Search v3
 1. In addition to v2, we add support for repliacation
 2. We send replicated queries for fetching result on separate concurrent goroutines, consider result of one whichever returns data first.
 3. Considering n number of replicas,
- T(web results) = min( T(web replica 1) , T(web replica 2) , ....... , T(web replica n))
- T(image results) = min( T(image replica 1) , T(image replica 2) , ....... , T(image replica n))
- T(video results) = min( T(video replica 1) , T(video replica 2) , ....... , T(video replica n))
- Total Time Taken = min( min(T(web results) , T(image results) , T(Video results)) , threshold_time)
+ T(web results) = min( T(web replica 1) , T(web replica 2) , ....... , T(web replica n)) <br>
+ T(image results) = min( T(image replica 1) , T(image replica 2) , ....... , T(image replica n)) <br>
+ T(video results) = min( T(video replica 1) , T(video replica 2) , ....... , T(video replica n)) <br>
+ Total Time Taken = min( min(T(web results) , T(image results) , T(Video results)) , threshold_time) <br>
