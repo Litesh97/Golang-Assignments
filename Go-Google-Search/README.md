@@ -15,7 +15,7 @@
 3. Total Time Taken = min( min(T(web results) , T(image results) , T(Video results)) , threshold_time)
 
 <strong>Google Search v3</strong>
-1. In addition to v2, we add support for repliacation
+1. In addition to v2, we add support for replication
 2. We send replicated queries for fetching result on separate concurrent goroutines, consider result of one whichever returns data first.
 3. Considering n number of replicas, <br>
  T(web results) = min( T(web replica 1) , T(web replica 2) , ....... , T(web replica n)) <br>
