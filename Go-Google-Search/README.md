@@ -2,7 +2,7 @@
 
 <strong>Referances :</strong>
 1. <a href="https://talks.golang.org/2012/concurrency.slide#42">Concurrency Slides</a>
-2. <a href="https://www.youtube.com/watch?v=f6kdp27TYZs">Go Concurrency - Talk by Rob Pike</a>
+2. <a href="https://www.youtube.com/watch?v=f6kdp27TYZs">Go Concurrency Patterns - Talk by Rob Pike</a>
 
 <strong>Google search v1</strong>
 1. Here we simply query the server (or call fakeSearch) for web, image and video type of results one after another in sequntial manner.
