@@ -1,5 +1,9 @@
 <h2>This assignment is a implementation of "Google Search" problem presented by Rob Pike in Google developers Go conference.</h2>
 
+<strong>Referances :</strong>
+1. <a href="https://talks.golang.org/2012/concurrency.slide#42">Concurrency Slides</a>
+2. <a href="https://www.youtube.com/watch?v=f6kdp27TYZs">Go Concurrency - Talk by Rob Pike</a>
+
 <strong>Google search v1</strong>
 1. Here we simply query the server (or call fakeSearch) for web, image and video type of results one after another in sequntial manner.
 2. No concurrency in used
