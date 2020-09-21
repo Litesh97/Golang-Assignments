@@ -1,4 +1,4 @@
-<h4>This assignment is a implementation of "Google Search" problem presented by Rob Pike in Google developers Go conference.<h4>
+<h4>This assignment is a implementation of "Google Search" problem presented by Rob Pike in Google developers Go conference.</h4>
 
 Google search v1 :
 1. Here we simply query the server (or call fakeSearch) for web, image and video type of results one after another in sequntial manner.
